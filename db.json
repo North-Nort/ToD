@@ -1,0 +1,37 @@
+{
+  "todos": [
+    {
+      "TaskName": "Новая задача",
+      "TaskTopic": "Тема",
+      "completed": false,
+      "Project": "Мой проект",
+      "Timer": "2024-01-15",
+      "id": "a2LDtKHhgLs"
+    },
+    {
+      "TaskName": "Новая задача",
+      "TaskTopic": "Тема",
+      "completed": false,
+      "Project": "Мой проект",
+      "Timer": "2024-01-15",
+      "id": "RyzQ1n-1snc"
+    },
+    {
+      "TaskName": "Новая задача",
+      "TaskTopic": "Тема",
+      "completed": false,
+      "Project": "Мой проект",
+      "Timer": "2024-01-15",
+      "id": "-ECdc5DKUfE"
+    },
+    {
+      "TaskName": "Новая задача",
+      "TaskTopic": "Тема",
+      "completed": false,
+      "Project": "Мой проект",
+      "Timer": "2024-01-15",
+      "id": "gpUnX_3hSSg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
