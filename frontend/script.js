@@ -25,7 +25,24 @@ function addtusk1() {
     .then(response => response.json())
     .then(data => {
         console.log('Задача добавлена:', data);
-           renderTask(data);
+           container.innerHTML += `
+        <div class="taskblock" data-id="${data.id}">
+            <label>
+                <input type="checkbox">
+                <span class="sspan"></span>
+            </label>
+
+            <div>
+                <button class="taskname">${data.TaskTopic}</button>
+                <span class="taskProjectTag">${data.Project}</span>
+                <span class="taskProjectTag">${data.Timer}</span>
+            </div>
+
+            <button type="button" class="deleteTaskFromList">
+                Удалить
+            </button>
+        </div>
+    `;
     });
 
 }
