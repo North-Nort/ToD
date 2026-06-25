@@ -26,7 +26,7 @@ function addtusk1() {
     .then(data => {
         console.log('Задача добавлена:', data);
            
-        container.innerHTML += `
+        let taskHTML = `
         <div class="taskblock" data-id="${data.id}">
             <label>
                 <input type="checkbox">
@@ -39,11 +39,18 @@ function addtusk1() {
                 <span class="taskProjectTag">${data.Timer}</span>
             </div>
 
-            <button type="button" class="deleteTaskFromList">
-                Удалить
-            </button>
+               <button type="button" class="deleteTaskFromList"> 
+                            <svg fill="#000000" viewBox="-2.64 -2.64 29.28 29.28" xmlns="http://www.w3.org/2000/svg" transform="rotate(45)" stroke="#000000" stroke-width="0.00024000000000000003">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M5.755,20.283,4,8H20L18.245,20.283A2,2,0,0,1,16.265,22H7.735A2,2,0,0,1,5.755,20.283ZM21,4H16V3a1,1,0,0,0-1-1H9A1,1,0,0,0,8,3V4H3A1,1,0,0,0,3,6H21a1,1,0,0,0,0-2Z"></path>
+                                </g>
+                            </svg>
+                        </button>
         </div>
     `;
+    container.insertAdjacentHTML("afterbegin", taskHTML)
     });
 
 }
@@ -123,5 +130,4 @@ document.querySelector('#tasks-container').addEventListener('click', function(ev
         });
     }
 });
-
 

@@ -352,3 +352,17 @@ margin: 40px;
   );
   margin: 16px 0;
 }
+
+
+.deleteacceptwindow{
+
+  height:200px;
+  width: 200px;
+  background: rgb(23, 36, 99);
+  border-radius: 25px;
+  border-color: #bfbfbf;
+  font-family: 'Intel';
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}

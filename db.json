@@ -6,7 +6,7 @@
       "completed": false,
       "Project": "Мой проект",
       "Timer": "2024-01-15",
-      "id": "-VvqxxqgUlQ"
+      "id": "kVESVl3-QFE"
     },
     {
       "TaskName": "Новая задача",
@@ -14,15 +14,7 @@
       "completed": false,
       "Project": "Мой проект",
       "Timer": "2024-01-15",
-      "id": "UIkULkSKYwM"
-    },
-    {
-      "TaskName": "Новая задача",
-      "TaskTopic": "Тема",
-      "completed": false,
-      "Project": "Мой проект",
-      "Timer": "2024-01-15",
-      "id": "eIwCABaAe3M"
+      "id": "VZlmvLeSbnk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
