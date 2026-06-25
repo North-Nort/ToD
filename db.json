@@ -6,7 +6,7 @@
       "completed": false,
       "Project": "Мой проект",
       "Timer": "2024-01-15",
-      "id": "EetpkRm6cW8"
+      "id": "-VvqxxqgUlQ"
     },
     {
       "TaskName": "Новая задача",
@@ -14,7 +14,7 @@
       "completed": false,
       "Project": "Мой проект",
       "Timer": "2024-01-15",
-      "id": "Oc3PqJXvKIo"
+      "id": "UIkULkSKYwM"
     },
     {
       "TaskName": "Новая задача",
@@ -22,39 +22,7 @@
       "completed": false,
       "Project": "Мой проект",
       "Timer": "2024-01-15",
-      "id": "fse9Lk1Tw8U"
-    },
-    {
-      "TaskName": "Новая задача",
-      "TaskTopic": "Тема",
-      "completed": false,
-      "Project": "Мой проект",
-      "Timer": "2024-01-15",
-      "id": "1hkmzD3eNMA"
-    },
-    {
-      "TaskName": "Новая задача",
-      "TaskTopic": "Тема",
-      "completed": false,
-      "Project": "Мой проект",
-      "Timer": "2024-01-15",
-      "id": "5SLG53oRdzU"
-    },
-    {
-      "TaskName": "Новая задача",
-      "TaskTopic": "Тема",
-      "completed": false,
-      "Project": "Мой проект",
-      "Timer": "2024-01-15",
-      "id": "APMQDk0_r38"
-    },
-    {
-      "TaskName": "Новая задача",
-      "TaskTopic": "Тема",
-      "completed": false,
-      "Project": "Мой проект",
-      "Timer": "2024-01-15",
-      "id": "l9M4CmHzHSg"
+      "id": "eIwCABaAe3M"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

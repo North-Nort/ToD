@@ -25,7 +25,8 @@ function addtusk1() {
     .then(response => response.json())
     .then(data => {
         console.log('Задача добавлена:', data);
-           container.innerHTML += `
+           
+        container.innerHTML += `
         <div class="taskblock" data-id="${data.id}">
             <label>
                 <input type="checkbox">
